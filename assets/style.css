@@ -1,0 +1,33 @@
+*{
+font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.os-tab-parent {
+width: auto;
+}
+
+.os-tab-container {
+  width: auto;
+  height: 40px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.os-tab {
+  width: auto;
+  background-color: #abc432 !important;
+  color: #0b8c08;
+  vertical-align: middel !important;
+  padding: 8px 10px 2px 10px !important;
+}
+
+.tab--selected{
+  background-color: #ffffff !important;
+  border-top-color: #0a61f7 !important; 
+  color: #0a61f7 !important;
+  padding: 8px 10px 2px 10px !important;
+}
+
+.tab:hover{
+  color: black;
+}
