@@ -5,7 +5,7 @@
     <h1>Data Analysis With Insights</h1>
     <h4>
       Data Analysis has become an integral part of the stepping stone towards data science.
-      <a href="https://jayforsk.herokuapp.com/">view project</a>
+      <a href="https://jayforsk.herokuapp.com/" target="_blank">view project</a>
     </h4>
     <div>
      Presenting a Web application using a Python Sciprt with Dash framework, displaying data visualization of global terrorism using a dataset of approximately 1,90,000 records. 
