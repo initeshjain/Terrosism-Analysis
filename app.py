@@ -386,7 +386,9 @@ def main():
   app.layout = create_app_ui()
   app.title = "Terrorism Analysis with Insights"
   # go to https://www.favicon.cc/ and download the ico file and store in assets directory 
-  app.run_server() # debug=True
+  #from waitress import serve
+  #serve(app, host="0.0.0.0", port=5003)
+  app.run_server("0.0.0.0", 5003) # debug=True
   print("Closing...")
   
   # Deallocation of memory
